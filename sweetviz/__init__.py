@@ -5,7 +5,7 @@ try:
 except ImportError:
     from importlib_metadata import metadata # Python 3.7
 
-_metadata = metadata("sweetviz")
+_metadata = metadata("sweetviz-cb")
 __title__ = _metadata["name"]
 __version__ = _metadata["version"]
 __author__ = _metadata["Author-email"]

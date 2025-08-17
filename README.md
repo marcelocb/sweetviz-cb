@@ -1,10 +1,13 @@
-![v](https://img.shields.io/badge/version-2.3.2-blue) ![v](https://img.shields.io/badge/updated-August%2016,%20%202025-green)
+![v](https://img.shields.io/badge/version-2.3.2-blue) ![v](https://img.shields.io/badge/updated-August%2017,%20%202025-green)
 
-### sweetviz-cb fork - Version 2.3.2
+### Start of sweetviz-cb fork (2025-08-17) - Version 2.3.2
 
-This fork was created to address minor fixes to make sweetviz work with numpy
-2.0+. If the original repo and packages get updated I will happily bury this
-fork. 
+This is a fork of [sweetviz](https://github.com/fbdesignpro/sweetviz), from  
+Francois Bertrand. I just created it to address minor fixes to make sweetviz work 
+with numpy 2.0+. If the original repo and packages get updated I will happily 
+bury this fork. I might have broken stuff that I never tested. 
+
+To install this module instead of the original [sweetviz](https://github.com/fbdesignpro/sweetviz), just do: ```pip install sweetviz-cb```. But to use you can ```import sweetviz``` as usual. 
 
 ### UPDATE (November 2023) -  Version 2.3.0: Verbosity parameter added, long-standing issues fixed
 
@@ -56,20 +59,20 @@ KD Nugget articles:
 _(see below for docs on these features)_
 
 # Upgrading
-Some people have experienced mixed results behavior upgrading through `pip`. To update to the latest from an existing install, it is recommended to `pip uninstall sweetviz` first, then simply install.
+Some people have experienced mixed results behavior upgrading through `pip`. To update to the latest from an existing install, it is recommended to `pip uninstall sweetviz-cb` first, then simply install.
 
 # Installation
 Sweetviz currently supports Python 3.6+ and Pandas 0.25.3+. Reports are output using the base "os" module, so custom environments such as Google Colab which require custom file operations are not yet supported, although I am looking into a solution. 
 ## Using pip
 The best way to install sweetviz (other than from source) is to use pip:
 ```
-pip install sweetviz
+pip install sweetviz-cb
 ```
 #### Installation issues & fixes
 In some rare cases, users have reported errors such as `ModuleNotFoundError: No module named 'sweetviz'` and `AttributeError: module 'sweetviz' has no attribute 'analyze'`.
 In those cases, we suggest the following:
 - Make sure none of your scripts are named `sweetviz.py`, as that interferes with the library itself. Delete or rename that script (and any associated `.pyc` files), and try again.
-- Try uninstalling the library using `pip uninstall sweetviz`, then reinstalling
+- Try uninstalling the library using `pip uninstall sweetviz-cb`, then reinstalling
 - The issue may stem from using multiple versions of Python, or from OS permissions. The following Stack Overflow articles have resolved many of these issues reported: [Article 1](https://stackoverflow.com/questions/32680081/importerror-after-successful-pip-installation/32680082), [Article 2](https://stackoverflow.com/questions/14295680/unable-to-import-a-module-that-is-definitely-installed), [Article 3](https://stackoverflow.com/questions/44528638/after-pip-successful-installed-modulenotfounderror) 
 - If all else fails, post a bug issue [here on github](https://github.com/fbdesignpro/sweetviz/issues). Thank you for taking the time, it may help resolve the issue for you and everyone else!
 # Basic Usage
