@@ -1,5 +1,11 @@
 ![v](https://img.shields.io/badge/version-2.3.1-blue) ![v](https://img.shields.io/badge/updated-November%2029,%20%202023-green)
 
+### sweetviz-cb fork - Version 2.3.2
+
+This fork was created to address minor fixes to make sweetviz work with numpy
+>2.0. If the original repo and packages get updated I will happily bury this
+fork. 
+
 ### UPDATE (November 2023) -  Version 2.3.0: Verbosity parameter added, long-standing issues fixed
 
 ---
