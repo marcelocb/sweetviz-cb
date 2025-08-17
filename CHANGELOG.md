@@ -1,5 +1,8 @@
 # Change log
 
+#### 2.3.2 - 2025-08-17
+
+- **Fixed:** bumped up to numpy 2.0+
 
 #### 2.3.1 - 2023-11-29
 
